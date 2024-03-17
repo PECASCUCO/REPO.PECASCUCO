@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+	id="plugin.video.ACESTREAM" version="1.0" name="[B][COLOR gold]DEPORTES ACESTREAM[/COLOR][/B]" provider-name="[B][COLOR pink]BY PECASCUCO[/COLOR][/B]">
+<requires>
+    <import addon="script.module.requests" />
+    <import addon="script.module.resolveurl" /> 
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>	
+	<extension point="xbmc.addon.metadata">
+                <platform>all</platform>
+		<summary lang="en">PECASCUCO</summary>
+		<summary lang="da">PECASCUCO</summary>
+		<description lang="en">[B][LOWERCASE][CAPITALIZE][COLOR aqua]En este addon no alojamos ningun tipo de contenido, todos los enlaces disponibles estan sacados de elcano.top[/COLOR][/CAPITALIZE][/LOWERCASE][/B]</description>
+		<website></website>
+
+		<platform>all</platform>
+<assets>
+        <icon>icon.png</icon>
+  <screenshot>resources/screenshots/fanart.jpg</screenshot>
+  
+        <fanart>fanart.jpg</fanart>
+    </assets>        
+		<language>es</language>
+	</extension>
+</addon>
